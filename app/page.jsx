@@ -15,7 +15,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">About Me</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br /> <span className="text-accent">Cary Htan</span>
+              Hello I&apos;m <br /> <span className="text-accent">Cary Htan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
             Welcome to my portfolio website! 🚀 I am currently a third year undergraduate student at Columbia University studying Computer Science 🦁. 

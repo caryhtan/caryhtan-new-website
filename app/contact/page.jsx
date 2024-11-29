@@ -20,18 +20,18 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "(+40) 321 654 876",
+    description: "(949) 9924422",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: " ch3756@columbia.edu",
   },
-  {
-    icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "Code Corner, Tech Town 13579",
-  },
+  // {
+  //   icon: <FaMapMarkerAlt />,
+  //   title: "Address",
+  //   description: "Code Corner, Tech Town 13579",
+  // },
 ];
 
 import { motion } from "framer-motion";
@@ -53,8 +53,7 @@ const Contact = () => {
             <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
               <h3 className="text-4xl text-accent">Let&apos;s work together</h3>
               <p className="text-white/60">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eum
-                nihil sapiente pariatur id totam.
+                
               </p>
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -64,7 +63,7 @@ const Contact = () => {
                 <Input type="phone" placeholder="Phone number" />
               </div>
               {/* select */}
-              <Select>
+              {/* <Select>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
@@ -76,7 +75,7 @@ const Contact = () => {
                     <SelectItem value="mst">Logo Design</SelectItem>
                   </SelectGroup>
                 </SelectContent>
-              </Select>
+              </Select> */}
               {/* textarea */}
               <Textarea
                 className="h-[200px]"
@@ -89,7 +88,7 @@ const Contact = () => {
             </form>
           </div>
           {/* info */}
-          <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="flex-1 flex  xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
             <ul className="flex flex-col gap-10">
               {info.map((item, index) => {
                 return (

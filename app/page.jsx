@@ -12,8 +12,8 @@ const Home = () => {
 
   const handleDownload = () => {
     const link = document.createElement('a');
-    link.href = '/assets/sample.pdf'; 
-    link.download = 'sample.pdf';
+    link.href = '/assets/resume.pdf'; 
+    link.download = 'Cary Htan (DA) Resume.pdf';
     link.click();
   }
 

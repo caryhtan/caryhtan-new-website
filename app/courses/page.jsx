@@ -7,10 +7,30 @@ const services = [
   {
     num: "COMS 1004",
     title: "Introduction to Computer Science and Programming in Java",
-    description:
-      "",
+    description: `I took an introductory computer science course focused on fundamental concepts for science and engineering students.
+  
+  The course covered the basics of algorithm design, teaching me how to break down problems and create efficient solutions.
+    
+  I also gained hands-on experience with Java programming, learning about variables, control structures, functions, and object-oriented programming principles.
+    
+  This course gave me a solid foundation in computational thinking and programming, which I continue to build on in more advanced computer science studies.`,
+    href: "",
+  },  
+  {
+    num: "COMS 3134",
+    title: "Data Structures in Java",
+    description: `I took a course that focused on foundational data types and structures essential for computer science.
+    
+    The course covered arrays, stacks, queues, singly and doubly linked lists, trees, sets, and graphs, providing hands-on experience in implementing and utilizing these structures.
+    
+    I also learned programming techniques such as sorting and searching algorithms, hashing, and garbage collection, all taught using Java.
+    
+    Additionally, the course introduced me to storage management concepts and the basics of algorithm analysis, enabling me to evaluate the efficiency and performance of different solutions.
+    
+    This course strengthened my understanding of how data is organized, processed, and optimized in software applications.`,
     href: "",
   },
+  
 ];
 
 import { motion } from "framer-motion";

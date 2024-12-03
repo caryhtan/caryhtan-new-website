@@ -11,15 +11,15 @@ import {
 
 import {
   SiApachehadoop,
-  SiPyspark,
   SiPowerbi,
   SiMysql,
   SiPostgresql,
-  SiMicrosoftsqlserver,
 } from "react-icons/si";
 import { AiOutlineCloudServer } from "react-icons/ai";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+
+import { DiMsqlServer } from "react-icons/di";
 
 // about data
 const about = {
@@ -92,7 +92,7 @@ const skills = {
   description: "",
   skillList: [
     {
-      icon: <SiMicrosoftsqlserver />,
+      icon: <DiMsqlServer />,
       name: "SQL Server",
     },
     {
@@ -116,11 +116,11 @@ const skills = {
       name: "Microsoft Azure (DataBricks, Lake, Warehouse)",
     },
     {
-      icon: <SiPyspark />,
+      icon: <img src='/assets/resume/icons/pysparkt.png' style={{width: '60px'}}/>,
       name: "PySpark",
     },
     {
-      icon: <SiPowerbi />,
+      icon: <img src='/assets/resume/icons/powerbi.png' style={{width: '60px'}}/>,
       name: "Microsoft Power BI",
     },
     {
@@ -258,7 +258,7 @@ const Resume = () => {
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
                             <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
-                              <div className="text-6xl group-hover:text-accent transition-all duration-300">
+                              <div className="text-6xl">
                                 {skill.icon}
                               </div>
                             </TooltipTrigger>

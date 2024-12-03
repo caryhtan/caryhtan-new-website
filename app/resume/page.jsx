@@ -116,11 +116,11 @@ const skills = {
       name: "Microsoft Azure (DataBricks, Lake, Warehouse)",
     },
     {
-      icon: <img src='/assets/resume/icons/pysparkt.png' style={{width: '60px'}}/>,
+      icon: <img src='/assets/resume/icons/pysparkt.png' style={{width: '60px'}} priority/>,
       name: "PySpark",
     },
     {
-      icon: <img src='/assets/resume/icons/powerbi.png' style={{width: '60px'}}/>,
+      icon: <img src='/assets/resume/icons/powerbi.png' style={{width: '60px'}} priority/>,
       name: "Microsoft Power BI",
     },
     {

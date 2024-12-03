@@ -1,13 +1,23 @@
 "use client";
 
 import {
-  FaHtml5,
-  FaCss3,
-  FaJs,
-  FaReact,
-  FaFigma,
-  FaNodeJs,
+  FaDatabase,
+  FaPython,
+  FaTable,
+  FaMicrosoft,
+  FaChartLine,
+  FaTools,
 } from "react-icons/fa";
+
+import {
+  SiApachehadoop,
+  SiPyspark,
+  SiPowerbi,
+  SiMysql,
+  SiPostgresql,
+  SiMicrosoftsqlserver,
+} from "react-icons/si";
+import { AiOutlineCloudServer } from "react-icons/ai";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -15,7 +25,7 @@ import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 const about = {
   title: "About me",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "",
   info: [
     {
       fieldName: "Name",
@@ -23,31 +33,15 @@ const about = {
     },
     {
       fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
-    },
-    {
-      fieldName: "Experience",
-      fieldValue: "6 months",
-    },
-    {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "American",
+      fieldValue: "(+1) 949 9924422",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
-    },
-    {
-      fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldValue: "ch3756@columbia.edu",
     },
     {
       fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldValue: "English, Burmese",
     },
   ],
 };
@@ -57,37 +51,17 @@ const experience = {
   icon: "/assets/resume/badge.svg",
   title: "My experience",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
+      company: "Fenics Market Data",
+      position: "Data Analyst Intern",
+      duration: "Summer 2024",
     },
     {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "Azul Bio",
+      position: "Bioinformatics Intern",
+      duration: "January 2024 - May 2024",
     },
   ],
 };
@@ -97,37 +71,17 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Columbia University",
+      degree: "Bachelor of Arts in Computer Science",
+      duration: "2023 - May 2026",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
-    },
-    {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
-    },
-    {
-      institution: "Community College",
+      institution: "Orange Coast College",
       degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
+      duration: "2021 - 2022",
     },
   ],
 };
@@ -135,40 +89,55 @@ const education = {
 // skills data
 const skills = {
   title: "My skills",
-  description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+  description: "",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "html 5",
+      icon: <SiMicrosoftsqlserver />,
+      name: "SQL Server",
     },
     {
-      icon: <FaCss3 />,
-      name: "css 3",
+      icon: <SiMysql />,
+      name: "MySQL",
     },
     {
-      icon: <FaJs />,
-      name: "javascript",
+      icon: <SiPostgresql />,
+      name: "PostgreSQL",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <FaPython />,
+      name: "Python (seaborn, matplotlib, scikit-learn)",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
+      icon: <FaTable />,
+      name: "Tableau",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <AiOutlineCloudServer />,
+      name: "Microsoft Azure (DataBricks, Lake, Warehouse)",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <SiPyspark />,
+      name: "PySpark",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <SiPowerbi />,
+      name: "Microsoft Power BI",
+    },
+    {
+      icon: <FaTools />,
+      name: "Excel",
+    },
+    {
+      icon: <FaChartLine />,
+      name: "Machine learning (PCA, KMeans)",
+    },
+    {
+      icon: <SiApachehadoop />,
+      name: "Hadoop",
+    },
+    {
+      icon: <FaDatabase />,
+      name: "NoSQL",
     },
   ],
 };

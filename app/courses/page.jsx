@@ -8,7 +8,7 @@ const services = [
     num: "COMS 1004",
     title: "Introduction to Computer Science and Programming in Java",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
+      "",
     href: "",
   },
 ];

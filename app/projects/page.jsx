@@ -47,11 +47,22 @@ const projects = [
     category: "Reducing Traffic Mortality in the USA",
     title: "project 3",
     description:
-      "In this project, I analyzed traffic accident data from various states to explore patterns and identify strategies to reduce traffic-related fatalities in the U.S. Using Python and Jupyter Notebook, I worked with datasets on fatal accidents and miles driven, focusing on key factors like speeding, alcohol use, and first-time offenders. I applied Principal Component Analysis (PCA) to reduce dimensionality and visualize state groupings, followed by KMeans clustering to identify distinct clusters of states based on accident profiles. This helped highlight high-priority clusters for targeted interventions to improve road safety.",
+      "I analyzed traffic accident data across the U.S. to uncover patterns and identify the most critical factors contributing to road fatalities. Using Python and Jupyter Notebook, I focused on key features like speeding, alcohol use, and first-time offenders. By applying Principal Component Analysis (PCA) and KMeans clustering, I grouped states based on accident profiles to prioritize areas needing targeted safety interventions.",
     stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
     image: "/assets/projects/proj3.jpg",
     live: "",
     github: "https://github.com/caryhtan/Reducing-Traffic-Mortality-in-the-USA",
+  },
+  {
+    num: "04",
+    category: "Word Frequency in Classic Novels",
+    title: "project 4",
+    description:
+      "I explored the most frequent words in Herman Melville's Moby Dick by scraping and analyzing its text using Python. Leveraging tools like requests, BeautifulSoup, and nltk, I cleaned and processed the data to remove metadata, punctuation, and stopwords. I then calculated word frequencies and visualized the results, uncovering prominent themes like \"whale,\" \"sea,\" and \"man\" that reflect the novel's focus and style.",
+    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    image: "/assets/projects/proj4.jpg",
+    live: "",
+    github: "https://github.com/caryhtan/Word-Frequency-in-Classic-Novels",
   }
 ];
 

@@ -47,7 +47,7 @@ const projects = [
     category: "Reducing Traffic Mortality in the USA",
     title: "project 3",
     description:
-      "I analyzed traffic accident data across the U.S. to uncover patterns and identify the most critical factors contributing to road fatalities. Using Python and Jupyter Notebook, I focused on key features like speeding, alcohol use, and first-time offenders. By applying Principal Component Analysis (PCA) and KMeans clustering, I grouped states based on accident profiles to prioritize areas needing targeted safety interventions.",
+      "I analyzed U.S. traffic accident data to uncover patterns and key factors like speeding and alcohol use. Using Python, I applied PCA and KMeans clustering to group states and prioritize safety interventions.",
     stack: [{ name: "Python" }, { name: "Seaborn" }, { name: "Matplotlib" }, { name: "Scikit-learn" }, { name: "PCA" }, { name: "KMeans" }],
     image: "/assets/projects/proj3.jpg",
     live: "",

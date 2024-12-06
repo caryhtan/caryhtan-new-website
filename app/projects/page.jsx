@@ -48,7 +48,7 @@ const projects = [
     title: "project 3",
     description:
       "I analyzed traffic accident data across the U.S. to uncover patterns and identify the most critical factors contributing to road fatalities. Using Python and Jupyter Notebook, I focused on key features like speeding, alcohol use, and first-time offenders. By applying Principal Component Analysis (PCA) and KMeans clustering, I grouped states based on accident profiles to prioritize areas needing targeted safety interventions.",
-    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    stack: [{ name: "Python" }, { name: "Seaborn" }, { name: "Matplotlib" }, { name: "Scikit-learn" }, { name: "PCA" }, { name: "KMeans" }],
     image: "/assets/projects/proj3.jpg",
     live: "",
     github: "https://github.com/caryhtan/Reducing-Traffic-Mortality-in-the-USA",
@@ -59,7 +59,7 @@ const projects = [
     title: "project 4",
     description:
       "I explored the most frequent words in Herman Melville's Moby Dick by scraping and analyzing its text using Python. Leveraging tools like requests, BeautifulSoup, and nltk, I cleaned and processed the data to remove metadata, punctuation, and stopwords. I then calculated word frequencies and visualized the results, uncovering prominent themes like \"whale,\" \"sea,\" and \"man\" that reflect the novel's focus and style.",
-    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    stack: [{ name: "Python" }, { name: "BeautifulSoup" }, { name: "NLP" }],
     image: "/assets/projects/proj4.jpg",
     live: "",
     github: "https://github.com/caryhtan/Word-Frequency-in-Classic-Novels",
@@ -70,7 +70,7 @@ const projects = [
     title: "project 5",
     description:
       "I investigated the rise of unicorn companies to uncover trends in high-growth industries between 2019 and 2021. Using SQL, I identified technology, healthcare, and finance as the top-performing industries based on the number of new unicorns. I examined their growth timelines, average valuations (over $2 billion), and dominance in driving innovation, providing insights into emerging market opportunities for strategic investments.",
-    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    stack: [{ name: "SQL" }],
     image: "/assets/projects/proj5.jpg",
     live: "",
     github: "https://github.com/caryhtan/Analyzing-Unicorn-Companies",

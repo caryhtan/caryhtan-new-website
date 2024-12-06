@@ -41,6 +41,17 @@ const projects = [
     image: "/assets/projects/proj2.jpg",
     live: "",
     github: "https://github.com/caryhtan/Modeling-car-insurance-claim-outcomes",
+  },
+  {
+    num: "03",
+    category: "Reducing Traffic Mortality in the USA",
+    title: "project 3",
+    description:
+      "In this project, I analyzed traffic accident data from various states to explore patterns and identify strategies to reduce traffic-related fatalities in the U.S. Using Python and Jupyter Notebook, I worked with datasets on fatal accidents and miles driven, focusing on key factors like speeding, alcohol use, and first-time offenders. I applied Principal Component Analysis (PCA) to reduce dimensionality and visualize state groupings, followed by KMeans clustering to identify distinct clusters of states based on accident profiles. This helped highlight high-priority clusters for targeted interventions to improve road safety.",
+    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    image: "/assets/projects/proj3.jpg",
+    live: "",
+    github: "https://github.com/caryhtan/Reducing-Traffic-Mortality-in-the-USA",
   }
 ];
 

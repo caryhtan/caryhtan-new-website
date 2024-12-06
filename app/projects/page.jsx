@@ -48,7 +48,7 @@ const projects = [
     title: "project 3",
     description:
       "I analyzed U.S. traffic accident data to uncover patterns and key factors like speeding and alcohol use. Using Python, I applied PCA and KMeans clustering to group states and prioritize safety interventions.",
-    stack: [{ name: "Python" }, { name: "Seaborn" }, { name: "Matplotlib" }, { name: "Scikit-learn" }, { name: "PCA" }, { name: "KMeans" }],
+    stack: [{ name: "Python" }, { name: "Seaborn" }, { name: "Matplotlib" }, { name: "Scikit-learn" }, { name: "KMeans" }],
     image: "/assets/projects/proj3.jpg",
     live: "",
     github: "https://github.com/caryhtan/Reducing-Traffic-Mortality-in-the-USA",

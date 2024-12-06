@@ -63,6 +63,17 @@ const projects = [
     image: "/assets/projects/proj4.jpg",
     live: "",
     github: "https://github.com/caryhtan/Word-Frequency-in-Classic-Novels",
+  },
+  {
+    num: "05",
+    category: "Analyzing Unicorn Companies",
+    title: "project 5",
+    description:
+      "I investigated the rise of unicorn companies to uncover trends in high-growth industries between 2019 and 2021. Using SQL, I identified technology, healthcare, and finance as the top-performing industries based on the number of new unicorns. I examined their growth timelines, average valuations (over $2 billion), and dominance in driving innovation, providing insights into emerging market opportunities for strategic investments.",
+    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    image: "/assets/projects/proj5.jpg",
+    live: "",
+    github: "https://github.com/caryhtan/Analyzing-Unicorn-Companies",
   }
 ];
 

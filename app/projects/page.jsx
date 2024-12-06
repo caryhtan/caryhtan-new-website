@@ -44,7 +44,7 @@ const projects = [
   },
   {
     num: "03",
-    category: "Reducing Traffic Mortality in the USA",
+    category: "Reducing Traffic Mortality in USA",
     title: "project 3",
     description:
       "I analyzed U.S. traffic accident data to uncover patterns and key factors like speeding and alcohol use. Using Python, I applied PCA and KMeans clustering to group states and prioritize safety interventions.",

@@ -37,7 +37,7 @@ const projects = [
     title: "project 2",
     description:
       "Machine learning is transforming the data-driven insurance industry. I analyzed On the Road car insurance dataset to identify the most predictive feature for forecasting claims by training and evaluating logistic regression models for each feature.",
-    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }],
+    stack: [{ name: "Python" }, { name: "Numpy" }, { name: "Pandas" }, { name: "Statsmodels" }, { name: "Machine Learning" }],
     image: "/assets/projects/proj2.jpg",
     live: "",
     github: "https://github.com/caryhtan/Modeling-car-insurance-claim-outcomes",

@@ -74,6 +74,17 @@ const projects = [
     image: "/assets/projects/proj5.jpg",
     live: "",
     github: "https://github.com/caryhtan/Analyzing-Unicorn-Companies",
+  },
+  {
+    num: "06",
+    category: "Mortage Repayments Calculator",
+    title: "project 6",
+    description:
+      "I developed a Mortgage Repayments Calculator to help users understand their loan repayment structure over time. With Streamlit and Python, the app calculates monthly repayments, total interest, and remaining loan balances based on user inputs such as home value, deposit, interest rate, and loan term. The repayment schedule appears as interactive charts, showing the gradual reduction in loan balance and interest payments. The app provides actionable insights for users to make informed financial decisions.",
+    stack: [{ name: "Python" }, { name: "Streamlit" }],
+    image: "/assets/projects/proj6.jpeg",
+    live: "https://mortage-repayments-calculator.streamlit.app/",
+    github: "https://github.com/caryhtan/mortage-repayments-calculator/blob/main/mortgage_calculator.py",
   }
 ];
 

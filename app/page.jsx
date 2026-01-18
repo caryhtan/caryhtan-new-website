@@ -29,7 +29,7 @@ const Home = () => {
               Hello I&apos;m <br /> <span className="text-accent">Cary Htan</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Welcome to my portfolio website! 🚀 I am currently a third year undergraduate student at Columbia University studying Computer Science 🦁. 
+            Welcome to my portfolio website! 🚀 I am a fourth year undergraduate student at Columbia University studying Computer Science 🦁. 
             I am passionate about data science and machine learning, and I love creating projects that delve into these fascinating fields.
             </p>
             {/* btn and socials */}
